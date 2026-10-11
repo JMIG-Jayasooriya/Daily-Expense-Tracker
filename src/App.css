@@ -58,3 +58,57 @@ h1 {
   color: #7f8c8d;
   font-size: 14px;
 }
+.expense {
+  align-items: center;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #2980b9;
+}
+
+.delete-btn {
+  background-color: #c0392b;
+}
+
+.form .cancel {
+  background-color: #95a5a6;
+}
+.summary {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.summary div {
+  flex: 1;
+  background: #eaf7ee;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.summary p {
+  margin: 0 0 4px;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.summary strong {
+  color: #27ae60;
+  font-size: 18px;
+}
